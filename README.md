@@ -3,7 +3,7 @@
 my first readme.md
 
 
-/////
+
 
 
 # Frontend Mentor - Profile card component
