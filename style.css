@@ -10,8 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
+    position:relative;
+    background-color:aqua;
   }
   h1, p{
     padding:0 15px;
@@ -20,23 +20,32 @@
   .container {
     height: 450px;
     width: 450px;    
-    /* display:flex;
-    flex-direction:column;
-    align-items: center: */
     box-shadow: 12px 24px 15px 4px gray;
-  
+    top: 40px; 
+    left: 40px;  
     }
 
  .background-top{
-   background-position-y:top
- /* background-position: 5% 5%; */
+  top: 20px;
+  left: 0px;  
+  background-position-y:top;
+ background-position: 5% 5%;  
+ position:absolute; 
+  position: left 0;
+ position: top 0; 
  }
 
  .back-bottom{
-  background-position: 65% 45%;
+   background-position: 65% 45%; 
+   position:absolute; 
+   position: left 0;
+   position: top 0;
  }
- .below{
+ /* .below{
   background-color: aqua;
+ } */
+ .background{
+  background-color:aqua;
  }
   .top {
     width: 100%;
